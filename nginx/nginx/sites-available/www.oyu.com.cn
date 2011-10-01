@@ -1,0 +1,50 @@
+
+upstream mochiweb {
+        server 127.0.0.1:8000;
+}
+
+server {
+        listen 80;
+        server_name www.oyu.com.cn;
+        access_log  /var/log/nginx/www.oyu.com.cn.access.log;
+        root /*/*/www.oyu.com.cn/priv/www;
+
+        client_header_buffer_size 256k;
+        large_client_header_buffers 4 256k;
+        client_max_body_size             50m;
+        client_body_buffer_size        256k;
+        client_header_timeout     10m;
+        client_body_timeout 10m;
+        send_timeout             10m;
+        charset utf-8;
+
+        error_page  404 /404.html;
+
+        location /404.html {
+            root /*/*/www.oyu.com.cn/priv/www;
+        }
+
+        error_page 500 502 503 504 /500.html;
+
+        location /500.html {
+            root /*/*/www.oyu.com.cn/priv/www;
+        }
+
+        location ~ ^/?(favicon\.ico|static)/ {
+            	root /*/*/www.oyu.com.cn/priv/www;
+                access_log  off;
+                expires 30d;
+        }
+
+        location ~* ^.+\.(html|htm|xhtml)$ {
+            	root /*/*/www.oyu.com.cn/priv/www;
+                access_log off;
+                expires 30d;
+        }
+
+        location / {
+            proxy_pass http://mochiweb;
+            include proxy.conf;
+        }
+}
+
