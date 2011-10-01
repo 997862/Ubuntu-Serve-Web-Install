@@ -1,0 +1,41 @@
+11.04源列表
+
+deb http://mirrors.163.com/ubuntu/ natty main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ natty-security main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ natty-updates main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ natty-proposed main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ natty-backports main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ natty main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ natty-security main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ natty-updates main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ natty-proposed main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ natty-backports main restricted universe multiverse 
+
+
+10.04源列表
+
+deb http://mirrors.163.com/ubuntu/ lucid main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ lucid-security main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ lucid-updates main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ lucid-proposed main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ lucid-backports main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ lucid main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ lucid-security main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ lucid-updates main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ lucid-proposed main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ lucid-backports main restricted universe multiverse 
+
+
+8.04 源列表
+
+deb http://mirrors.163.com/ubuntu/ hardy main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ hardy-security main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ hardy-updates main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ hardy-proposed main restricted universe multiverse
+deb http://mirrors.163.com/ubuntu/ hardy-backports main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ hardy main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ hardy-security main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ hardy-updates main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ hardy-proposed main restricted universe multiverse
+deb-src http://mirrors.163.com/ubuntu/ hardy-backports main restricted universe multiverse
+
